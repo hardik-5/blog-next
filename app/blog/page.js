@@ -8,7 +8,7 @@ import matter from 'gray-matter';
 const dirContent = fs.readdirSync("content", "utf-8");
 
 const blogs = dirContent.map(file => {
-    const fileContent = fs.readFileSync(content/${file}, "utf-8");
+    const fileContent = fs.readFileSync(`content/${file}`, "utf-8");
     const { data } = matter(fileContent);
     return data;
 });
@@ -46,7 +46,7 @@ const Blog = () => {
               </div>
               
               {/* Link to the full blog post */}
-              <Link href={/blogpost/${blog.slug}} className={buttonVariants({ variant: "outline" })}>Click here</Link>
+              <Link href={`/blogpost/${blog.slug}`} className={buttonVariants({ variant: "outline" })}>Click here</Link>
             </div>
           </div>
         ))}
