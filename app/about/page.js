@@ -41,7 +41,7 @@ export default function About() {
           <div className="space-y-12">
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/3">
-                <Image src="/3.jpg" alt="Hardik as a beginner" className="w-full rounded-lg shadow-lg" />
+                <Image src="/1.jpg" alt="Hardik as a beginner" className="w-full rounded-lg shadow-lg" />
               </div>
               <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white dark:text-white">From Curiosity to Code</h3>
@@ -65,7 +65,7 @@ export default function About() {
 
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/3">
-                <Image src="/1.jpg" alt="Hardik working on a big project" className="w-full rounded-lg shadow-lg" />
+                <Image src="/3.jpg" alt="Hardik working on a big project" className="w-full rounded-lg shadow-lg" />
               </div>
               <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Building Beyond Limits</h3>
