@@ -20,7 +20,7 @@ export default function About() {
             <div className="w-full md:w-2/3 flex flex-col justify-center ">
               <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">About Me</h1>
               <p className="text-gray-600 dark:text-gray-50 text-lg mb-4">
-                Hello! I&apos;m Hardik, a versatile web developer passionate about creating modern, responsive, and high-performance web applications. This blog is my space to share insights, tips, and tutorials drawn from real-world experience with technologies like ReactJS, Next.js, and Tailwind CSS. From building dynamic UIs to integrating Markdown-based content systems and AI-driven solutions, I believe in continuously learning and growing—and helping others do the same. Whether you're a beginner or a fellow tech enthusiast, I hope this blog becomes a valuable stop on your development journey.
+                Hello! I&apos;m Hardik, a versatile web developer passionate about creating modern, responsive, and high-performance web applications. This blog is my space to share insights, tips, and tutorials drawn from real-world experience with technologies like ReactJS, Next.js, and Tailwind CSS. From building dynamic UIs to integrating Markdown-based content systems and AI-driven solutions, I believe in continuously learning and growing—and helping others do the same. Whether you&apos;re a beginner or a fellow tech enthusiast, I hope this blog becomes a valuable stop on your development journey.
               </p>
               <p className="text-gray-600 dark:text-gray-50 text-lg">
                 Whether you&apos;re just beginning your coding journey or aiming to level up your development skills, this blog offers hands-on insights, real project experiences, and practical resources. Let&apos;s dive into the world of modern web development—together.
@@ -82,7 +82,7 @@ export default function About() {
               <div className="md:w-2/3 md:pr-8 mt-8 md:mt-0">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Sharing the Journey</h3>
                 <p className="mt-4 text-gray-600 dark:text-gray-50">
-                Beyond building applications, Hardik actively contributes to the tech community—through writing insightful blogs, managing college tech events, and mentoring peers. His leadership roles in societies like CodeChef MAIT and Tech Vision Alliance reflect his passion for collaboration and growth. For Hardik, development is not just about code—it&apos;s about inspiring others and evolving together.
+                Beyond building applications, Hardik actively contributes to the tech community—through writing insightful blogs, managing college tech events, and mentoring peers. His leadership roles in societies like CodeChef MAIT and Tech Vision Alliance reflect his passion for collaboration and growth. For Hardik, development is not just about code — it&apos;s about inspiring others and evolving together.
                 </p>
               </div>
             </div>
